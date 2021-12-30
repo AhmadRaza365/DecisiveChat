@@ -1,0 +1,25 @@
+#GoToTopbtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    border: none;
+    outline: none;
+    background-color: #bad072;
+    color: #023026;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+#GoToTopbtn:hover{
+    background-color: #023026;
+    color: #bad072;
+
+}

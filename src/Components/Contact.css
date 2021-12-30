@@ -1,0 +1,105 @@
+.ContactPage {
+  color: #023026;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1%;
+}
+
+.ContactPage p {
+  text-align: center;
+  font-size: 2vw;
+}
+
+.ContactformContainer {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 2%;
+}
+
+.ContactformContainer img {
+  margin: auto;
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ContactForm input,
+.ContactFormTextArea {
+  background-color: #bad072;
+  color: #023026;
+  border: none;
+  border-radius: 30px;
+  width: 40vw;
+  font-size: larger;
+  padding: 1% 2%;
+  margin-top: 1%;
+}
+
+.ContactFormTextArea {
+  height: 15vw;
+  border-radius: 20px;
+  resize: none;
+  padding-top: 2%;
+}
+
+.ContactForm input:focus,
+.ContactFormTextArea:focus {
+  outline: none;
+}
+
+.ContactSubmitbtn {
+  background-color: #023026;
+  color: #d5e2ed;
+  border-radius: 15px;
+  font-size: larger;
+  padding: 1% 2%;
+  margin-top: 1%;
+  border: 2px solid #023026;
+  cursor: pointer;
+}
+.ContactSubmitbtn:hover {
+  color: #023026;
+  background-color: #d5e2ed;
+  border: 2px solid #023026;
+}
+
+/* for Tablets <=768 px */
+@media (max-width: 768px) {
+  .ContactPage p {
+    font-size: 3vw;
+  }
+  .ContactformContainer img {
+    width: 90%;
+  }
+}
+
+/* for Mobiles <=600 px */
+
+@media (max-width: 600px) {
+  .ContactPage p {
+    font-size: 5vw;
+  }
+  .ContactformContainer {
+    grid-template-columns: 100%;
+    margin-top: 1%;
+  }
+
+  .ContactForm input,
+  .ContactFormTextArea {
+    width: 80vw;
+    padding: 2% 3%;
+    margin-top: 1%;
+  }
+  .ContactFormTextArea {
+    height: 50vw;
+  }
+
+  .ContactSubmitbtn {
+    padding: 1% 3%;
+    margin-bottom: 5%;
+  }
+}

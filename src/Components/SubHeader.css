@@ -1,0 +1,37 @@
+.SubHeader {
+  background-color: #023026;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+.SubHeader img {
+  width: 3vw;
+  height: 3vw;
+}
+.SubHeader h1 {
+  color: #d5e2ed;
+  margin: 0 0 0 2%;
+}
+.BackArrowButton {
+  cursor: pointer;
+  background-color: #023026;
+  border: none;
+}
+
+/* for Tablets <=768 px */
+@media (max-width: 768px) {
+  .SubHeader img {
+    width: 5vw;
+    height: 5vw;
+  }
+}
+
+/* for Mobiles <=600 px */
+@media (max-width: 600px) {
+  .SubHeader img {
+    width: 10vw;
+    height: 10vw;
+  }
+}

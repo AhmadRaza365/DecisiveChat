@@ -1,0 +1,41 @@
+.AboutTextContainer {
+  color: #023026;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 0 5%;
+}
+.AboutTextContainer h1 {
+  text-align: center;
+  font-size: 4vw;
+}
+
+.AboutTextContainer p {
+  text-align: left;
+  font-size: 2vw;
+}
+
+/* for Tablets <=768 px */
+@media (max-width: 768px) {
+  .AboutTextContainer h1 {
+    font-size: 5vw;
+  }
+  .AboutTextContainer p {
+    font-size: 3vw;
+  }
+}
+
+/* for Mobiles <=600 px */
+
+@media (max-width: 600px) {
+  .AboutTextContainer {
+    padding: 0 3%;
+  }
+  .AboutTextContainer h1 {
+    font-size: 8vw;
+  }
+  .AboutTextContainer p {
+    font-size: 5vw;
+  }
+}
